@@ -1,0 +1,134 @@
+<div class="main">
+    <mat-toolbar>
+        <mat-toolbar-row class="upper-toolbar" fxLayout="row">
+            <span style="color: blanchedalmond;">Super</span>
+            <span style="color: darkgreen;">Sale</span>
+            <div class="searchbar">
+                <input type="text">
+                <i class="fa fa-search icon"></i>
+            </div>
+            <div class="toolbar-buttons">
+                <button mat-raised-button style="width: 3cm;">Login</button>
+                <button mat-raised-button style="width: 3cm; margin-left: 1cm;" [matMenuTriggerFor]="menu">More</button>
+                <mat-menu #menu="matMenu">
+                    <button mat-menu-item>Item 1</button>
+                    <button mat-menu-item>Item 2</button>
+                </mat-menu>
+                <button mat-mini-fab style="margin-left: 1cm;" color="secondary">
+                    <mat-icon> person </mat-icon>
+                </button>
+            </div>
+        </mat-toolbar-row>
+        <mat-toolbar-row class="lower-toolbar">
+        </mat-toolbar-row>
+    </mat-toolbar>
+    <div fxLayout="row">
+        <mat-card class="first-card">
+            <mat-card-header>
+                <div mat-card-avatar class="example-header-image"></div>
+                <mat-card-title>Nike Shoes</mat-card-title>
+                <mat-card-subtitle>Limited Stock</mat-card-subtitle>
+            </mat-card-header>
+            <div class="first-pic">
+                <img mat-card-image src="..//assets//shoes.jpg" />
+            </div>
+            <mat-card-content>
+                <p>
+                    Stylish shoes with robust look only at 8000/-
+                </p>
+            </mat-card-content>
+
+            <mat-card-actions fxLayout="row" fxLayoutAlign="space-around center">
+                <button mat-button>LIKE</button>
+                <button mat-button>SHARE</button>
+                <button mat-mini-fab>
+                <mat-icon>shopping_cart</mat-icon>     
+            </button>
+
+            </mat-card-actions>
+
+        </mat-card>
+        <mat-card class="first-card">
+            <mat-card-header>
+                <div mat-card-avatar class="example-header-image"></div>
+                <mat-card-title>Tissot Watches <br/></mat-card-title>
+                <mat-card-subtitle>Limited Stock</mat-card-subtitle>
+            </mat-card-header>
+            <div class="watch-pic">
+                <img mat-card-image src="..//assets//watch.jpg" />
+            </div>
+            <mat-card-content>
+                <p>
+                    Stylish watch only at 16000/-
+                </p>
+            </mat-card-content>
+            <br>
+
+            <mat-card-actions fxLayout="row" fxLayoutAlign="space-around center">
+                <button mat-button>LIKE</button>
+                <button mat-button>SHARE</button>
+                <button mat-mini-fab>
+                <mat-icon>shopping_cart</mat-icon>     
+            </button>
+            </mat-card-actions>
+        </mat-card>
+        <mat-card class="first-card">
+            <mat-card-header>
+                <div mat-card-avatar class="example-header-image"></div>
+                <mat-card-title>Shirts <br/></mat-card-title>
+                <mat-card-subtitle>Limited Stock</mat-card-subtitle>
+            </mat-card-header>
+            <div class="watch-pic">
+                <img mat-card-image src="..//assets//shirt.jpg" />
+            </div>
+            <mat-card-content>
+                <p>
+                    Stylish shirt at 800/-
+                </p>
+            </mat-card-content>
+            <mat-card-actions fxLayout="row" fxLayoutAlign="space-around center">
+                <button mat-button>LIKE</button>
+                <button mat-button>SHARE</button>
+                <button mat-mini-fab>
+                <mat-icon>shopping_cart</mat-icon>     
+            </button>
+            </mat-card-actions>
+        </mat-card>
+        <mat-card class="first-card">
+            <mat-card-header>
+                <div mat-card-avatar class="example-header-image"></div>
+                <mat-card-title>Iphone11<br/></mat-card-title>
+                <mat-card-subtitle>Limited Stock</mat-card-subtitle>
+            </mat-card-header>
+            <div class="watch-pic">
+                <img mat-card-image src="..//assets//iphone.jpg" />
+            </div>
+            <mat-card-content>
+                <p>
+                    Available only at 120000/-
+                </p>
+            </mat-card-content>
+            <mat-card-actions fxLayout="row" fxLayoutAlign="space-around center">
+                <button mat-button>LIKE</button>
+                <button mat-button>SHARE</button>
+                <button mat-mini-fab>
+                <mat-icon>shopping_cart</mat-icon>     
+            </button>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+    <div>
+        <mat-card>
+            <div class="diwali-pic">
+                <img mat-card-image src="..//assets//Diwali-Offers.jpg">
+            </div>
+        </mat-card>
+    </div>
+    <div class="photos">
+        <mat-toolbar>
+            <img src="..//assets//friday.jpg">
+            <img src="..//assets//amazon.jpg">
+            <img src="..//assets//led tv.jpg">
+        </mat-toolbar>
+    </div>
+</div>
